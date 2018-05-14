@@ -1,0 +1,25 @@
+main: com.infogroup.infolist.InfoList
+name: InfoList
+authors: [pixar02, Ktar5]
+version: 1.0.0
+website: "bit.ly/InfoList_spigot"
+depend: [PlaceholderAPI]
+
+commands:
+  InfoList:
+    usage: /<command> [args]
+    discription:
+    aliases: [il, infol, ilist, infolist]
+
+
+permissions:
+  il.*:
+    default: op
+    children:
+      il.create: true
+      il.toggle: true
+      il.view: true
+  il.toggle:
+    default: true
+  il.view:
+    default: true

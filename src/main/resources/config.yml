@@ -1,0 +1,7 @@
+# InfoList Config, Last Edited in v1.0.0
+# =============================================================================
+# |                     Updater: Checks for updates on enable                 |
+# |           Debug: Gives extra info on plugin (cmds/startup/errors)         |
+# =============================================================================
+Updater: true
+Debug: false
