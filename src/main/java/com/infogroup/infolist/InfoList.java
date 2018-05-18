@@ -3,6 +3,7 @@ package com.infogroup.infolist;
 import com.infogroup.infolist.utils.FileManager;
 import com.infogroup.infolist.utils.ListManager;
 import com.infogroup.infolist.utils.Metrics;
+import com.infogroup.infolist.utils.Settings;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Logger;
@@ -11,6 +12,7 @@ public class InfoList extends JavaPlugin {
 
     private ListManager LM;
     private FileManager FM;
+    private Settings settings;
 
     Logger logger;
     Metrics metrics;
@@ -54,4 +56,10 @@ public class InfoList extends JavaPlugin {
      * @return
      */
     public FileManager getFM(){ return this.FM; }
+
+    /**
+     * Get Settings
+     * @return
+     */
+    public Settings getSettings(){ return this.settings; }
 }
