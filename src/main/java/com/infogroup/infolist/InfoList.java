@@ -22,14 +22,10 @@ public class InfoList extends JavaPlugin {
         logger = this.getLogger();
 
 
-
-
         logger.info("InfoList is enabled!");
     }
 
     public void onDisable() {
-
-
 
         logger.info("InfoList is disabled!");
     }
