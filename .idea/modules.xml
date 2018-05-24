@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Info-List.iml" filepath="$PROJECT_DIR$/.idea/Info-List.iml" />
-    </modules>
-  </component>
+<component name="ProjectModuleManager">
+  <modules>
+    <module fileurl="file://$PROJECT_DIR$/.idea/modules/infolist.iml" filepath="$PROJECT_DIR$/.idea/modules/infolist.iml" />
+    <module fileurl="file://$PROJECT_DIR$/.idea/modules/infolist_main.iml" filepath="$PROJECT_DIR$/.idea/modules/infolist_main.iml" group="infolist" />
+    <module fileurl="file://$PROJECT_DIR$/.idea/modules/infolist_test.iml" filepath="$PROJECT_DIR$/.idea/modules/infolist_test.iml" group="infolist" />
+  </modules>
+</component>
 </project>
