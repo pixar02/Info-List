@@ -32,8 +32,8 @@ public class InfoList extends JavaPlugin {
 
     private void instances(){
         this.LM = new ListManager(this);
-
-
+        this.settings = new Settings(this);
+        this.FM = new FileManager(this);
     }
 
 
